@@ -63,4 +63,10 @@ python3 app.py
 
 Open `http://localhost:5000` in your browser.
 
+You can deactivate your virtual environent with:
+
+```bash
+deactivate
+```
+
 > Note: each time you open a new terminal session, run `source venv/bin/activate` before starting the app.
