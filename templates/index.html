@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dashboard</title>
+  <link rel="stylesheet" href="/static/style.css" />
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="header-text">
+        <h1 id="greeting"></h1>
+        <p id="date-time"></p>
+      </div>
+      <div class="theme-toggle">
+        <button class="theme-btn active" data-theme="light">Light</button>
+        <button class="theme-btn" data-theme="dark">Dark</button>
+      </div>
+    </header>
+
+    <div class="grid">
+      <section class="card weather-card">
+        <h2>Weather</h2>
+        <div id="weather-current" class="loading">Loading...</div>
+        <div id="weather-forecast" class="forecast-row"></div>
+      </section>
+
+      <section class="card calendar-card">
+        <h2>Upcoming</h2>
+        <ul id="calendar-events" class="loading">Loading...</ul>
+      </section>
+    </div>
+  </div>
+
+  <script src="/static/app.js"></script>
+</body>
+</html>
