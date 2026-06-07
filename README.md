@@ -49,7 +49,13 @@ On first run, a browser window will open asking you to authorize access to your 
 
 ## Running
 
-Make sure the virtual environment is active, then:
+Make sure the virtual environment is active by going to your local repository:
+
+```bash
+source venv/bin/activate
+```
+
+Then:
 
 ```bash
 python3 app.py
